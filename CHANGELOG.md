@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* Fix autosaving relationships when submitting invalid parameters. [#7437] by [@arbesulo]
+
 ## 2.11.1 [☰](https://github.com/activeadmin/activeadmin/compare/v2.11.0..v2.11.1)
 
 ### Enhancements
@@ -743,6 +745,7 @@ Please check [0-6-stable] for previous changes.
 [#7350]: https://github.com/activeadmin/activeadmin/pull/7350
 [#7384]: https://github.com/activeadmin/activeadmin/pull/7384
 [#7394]: https://github.com/activeadmin/activeadmin/pull/7394
+[#7437]: https://github.com/activeadmin/activeadmin/pull/7437
 
 [@1000ship]: https://github.com/1000ship
 [@5t111111]: https://github.com/5t111111
@@ -755,6 +758,7 @@ Please check [0-6-stable] for previous changes.
 [@amiel]: https://github.com/amiel
 [@amiuhle]: https://github.com/amiuhle
 [@andreslemik]: https://github.com/andreslemik
+[@arbesulo]: https://github.com/arbesulo
 [@bartoszkopinski]: https://github.com/bartoszkopinski
 [@blocknotes]: https://github.com/blocknotes
 [@bolshakov]: https://github.com/bolshakov
