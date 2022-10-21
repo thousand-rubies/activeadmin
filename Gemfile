@@ -12,7 +12,7 @@ group :development, :test do
   gem "draper"
   gem "devise"
 
-  gem "rails", "~> 7.0.0"
+  gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 
   gem "net-smtp" # The mail gem, depended on transitively, does not specify this dependency
 
