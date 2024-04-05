@@ -10,9 +10,9 @@ group :development, :test do
   gem "pundit"
 
   gem "draper"
-  gem "devise"
+  gem "devise", ">= 4.9.0"
 
-  gem "rails", "~> 7.0.0"
+  gem "rails", "~> 7.0.8", ">= 7.0.8.1"
 
   gem "net-smtp" # The mail gem, depended on transitively, does not specify this dependency
 
@@ -21,20 +21,20 @@ group :development, :test do
 end
 
 group :test do
-  gem "cuprite"
-  gem "capybara"
+  gem "cuprite", ">= 0.14"
+  gem "capybara", ">= 3.37.0"
   gem "webrick"
 
   gem "simplecov", require: false # Test coverage generator. Go to /coverage/ after running tests
-  gem "cucumber-rails", require: false
+  gem "cucumber-rails", ">= 2.6.0", require: false
   gem "cucumber"
   gem "database_cleaner"
-  gem "jasmine"
+  gem "jasmine", ">= 3.0.0"
   gem "jasmine-core"
   gem "launchy"
   gem "parallel_tests"
-  gem "rails-i18n" # Provides default i18n for many languages
-  gem "rspec-rails"
+  gem "rails-i18n" , ">= 7.0.5" # Provides default i18n for many languages
+  gem "rspec-rails", ">= 6.0.0"
   gem "sqlite3", platform: :mri
 end
 
@@ -48,16 +48,16 @@ group :lint do
   gem "rubocop"
   gem "rubocop-packaging"
   gem "rubocop-rspec"
-  gem "rubocop-rails"
+  gem "rubocop-rails", ">= 2.10.0"
   gem "mdl"
 
   # Translations
-  gem "i18n-tasks"
+  gem "i18n-tasks", ">= 1.0.10"
   gem "i18n-spec"
 end
 
 group :docs do
-  gem "yard" # Documentation generator
+  gem "yard" , ">= 0.9.35" # Documentation generator
   gem "kramdown" # Markdown implementation (for yard)
 end
 
