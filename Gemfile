@@ -22,7 +22,7 @@ end
 
 group :test do
   gem "cuprite"
-  gem "capybara"
+  gem "capybara", ">= 3.37.0"
   gem "webrick"
 
   gem "simplecov", require: false # Test coverage generator. Go to /coverage/ after running tests
