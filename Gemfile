@@ -16,7 +16,7 @@ group :development, :test do
 
   gem "net-smtp" # The mail gem, depended on transitively, does not specify this dependency
 
-  gem "sprockets-rails"
+  gem "sprockets-rails", ">= 3.5.0"
   gem "sassc-rails"
 end
 
