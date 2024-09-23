@@ -26,7 +26,7 @@ group :test do
   gem "webrick"
 
   gem "simplecov", require: false # Test coverage generator. Go to /coverage/ after running tests
-  gem "cucumber-rails", require: false
+  gem "cucumber-rails", ">= 3.0.0", require: false
   gem "cucumber"
   gem "database_cleaner"
   gem "jasmine"
@@ -57,7 +57,7 @@ group :lint do
 end
 
 group :docs do
-  gem "yard" # Documentation generator
+  gem "yard" , ">= 0.9.29" # Documentation generator
   gem "kramdown" # Markdown implementation (for yard)
 end
 
