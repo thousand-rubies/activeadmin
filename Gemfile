@@ -26,7 +26,7 @@ group :test do
   gem "webrick"
 
   gem "simplecov", require: false # Test coverage generator. Go to /coverage/ after running tests
-  gem "cucumber-rails", require: false
+  gem "cucumber-rails", ">= 3.0.0", require: false
   gem "cucumber"
   gem "database_cleaner"
   gem "jasmine"
@@ -47,12 +47,12 @@ group :lint do
   # Code style
   gem "rubocop"
   gem "rubocop-packaging"
-  gem "rubocop-rspec"
-  gem "rubocop-rails"
+  gem "rubocop-rspec", ">= 3.5.0"
+  gem "rubocop-rails", ">= 2.30.0"
   gem "mdl"
 
   # Translations
-  gem "i18n-tasks"
+  gem "i18n-tasks", ">= 1.0.14"
   gem "i18n-spec"
 end
 
