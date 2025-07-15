@@ -23,10 +23,10 @@ end
 group :test do
   gem "cuprite"
   gem "capybara"
-  gem "webrick"
+  gem "webrick", ">= 1.8.2"
 
   gem "simplecov", require: false # Test coverage generator. Go to /coverage/ after running tests
-  gem "cucumber-rails", require: false
+  gem "cucumber-rails", ">= 3.0.0", require: false
   gem "cucumber"
   gem "database_cleaner"
   gem "jasmine"
@@ -52,12 +52,12 @@ group :lint do
   gem "mdl"
 
   # Translations
-  gem "i18n-tasks"
+  gem "i18n-tasks", ">= 1.0.14"
   gem "i18n-spec"
 end
 
 group :docs do
-  gem "yard" # Documentation generator
+  gem "yard" , ">= 0.9.29" # Documentation generator
   gem "kramdown" # Markdown implementation (for yard)
 end
 
