@@ -12,7 +12,7 @@ group :development, :test do
   gem "draper"
   gem "devise"
 
-  gem "rails", "~> 7.0.0"
+  gem "rails", "~> 7.1.5", ">= 7.1.5.2"
 
   gem "net-smtp" # The mail gem, depended on transitively, does not specify this dependency
 
@@ -28,7 +28,7 @@ group :test do
   gem "simplecov", require: false # Test coverage generator. Go to /coverage/ after running tests
   gem "cucumber-rails", require: false
   gem "cucumber"
-  gem "database_cleaner"
+  gem "database_cleaner", ">= 2.0.2"
   gem "jasmine"
   gem "jasmine-core"
   gem "launchy"
